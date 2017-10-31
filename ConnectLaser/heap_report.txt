@@ -1,0 +1,35 @@
+/home/dpo/Desktop/R@F_2017_v6/ConnectLaser/laser 
+Heap dump by heaptrc unit
+6357482 memory blocks allocated : 1500430160/1528532592
+6357479 memory blocks freed     : 1500429936/1528532360
+3 unfreed memory blocks : 224
+True heap size : 1015808
+True free heap : 1014080
+Should be : 1015384
+Call trace for block $B5F30060 size 32
+  $08175DB0  ADDEVENTHANDLER,  line 32 of ./include/lclintf.inc
+  $084411D5  TLCLEVENTER__ADDHANDLE,  line 93 of lclgtkeventer.inc
+  $08442D7E  TLCONNECTION__REGISTERWITHEVENTER,  line 1099 of /usr/share/lazarus/1.2.6/components/lnet/lib/lnet.pp
+  $080978AC  TFLASERS__FORMSHOW,  line 368 of lasers.pas
+  $08085CBC  TCUSTOMFORM__DOSHOW,  line 1010 of ./include/customform.inc
+  $08085180  TCUSTOMFORM__CMSHOWINGCHANGED,  line 629 of ./include/customform.inc
+  $0806D8C6
+  $081E5FA0  TWINCONTROL__WNDPROC,  line 5326 of ./include/wincontrol.inc
+Call trace for block $B77C8AA0 size 12
+  $08442D7E  TLCONNECTION__REGISTERWITHEVENTER,  line 1099 of /usr/share/lazarus/1.2.6/components/lnet/lib/lnet.pp
+  $080978AC  TFLASERS__FORMSHOW,  line 368 of lasers.pas
+  $08085CBC  TCUSTOMFORM__DOSHOW,  line 1010 of ./include/customform.inc
+  $08085180  TCUSTOMFORM__CMSHOWINGCHANGED,  line 629 of ./include/customform.inc
+  $0806D8C6
+  $081E5FA0  TWINCONTROL__WNDPROC,  line 5326 of ./include/wincontrol.inc
+  $08086AF7  TCUSTOMFORM__WNDPROC,  line 1430 of ./include/customform.inc
+  $081F0DD6  TCONTROL__PERFORM,  line 1445 of ./include/control.inc
+Call trace for block $B6432B60 size 180
+  $084430B8  TLUDP__LISTEN,  line 1167 of /usr/share/lazarus/1.2.6/components/lnet/lib/lnet.pp
+  $080978AC  TFLASERS__FORMSHOW,  line 368 of lasers.pas
+  $08085CBC  TCUSTOMFORM__DOSHOW,  line 1010 of ./include/customform.inc
+  $08085180  TCUSTOMFORM__CMSHOWINGCHANGED,  line 629 of ./include/customform.inc
+  $0806D8C6
+  $081E5FA0  TWINCONTROL__WNDPROC,  line 5326 of ./include/wincontrol.inc
+  $08086AF7  TCUSTOMFORM__WNDPROC,  line 1430 of ./include/customform.inc
+  $081F0DD6  TCONTROL__PERFORM,  line 1445 of ./include/control.inc
